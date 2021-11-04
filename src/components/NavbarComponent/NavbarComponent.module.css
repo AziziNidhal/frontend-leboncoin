@@ -1,0 +1,15 @@
+.element {
+  padding: 13px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.element:nth-child(1) {
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.element a {
+  color: #fff;
+  text-decoration: none;
+}

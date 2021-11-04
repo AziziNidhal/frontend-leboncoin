@@ -1,0 +1,24 @@
+.compose {
+  padding: 10px;
+  background-color: #dd7238 !important;
+}
+
+.compose form {
+  display: flex;
+}
+
+.compose form textarea {
+  flex: 3 3 400px;
+  border: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  resize: none;
+  color: black;
+}
+.compose button {
+  flex-basis: 50px;
+  font-weight: bold;
+  border: 0px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}

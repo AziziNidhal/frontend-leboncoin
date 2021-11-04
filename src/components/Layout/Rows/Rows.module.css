@@ -1,0 +1,4 @@
+.rows {
+  display: flex;
+  height: 90vh !important;
+}

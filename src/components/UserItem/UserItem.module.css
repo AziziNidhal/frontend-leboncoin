@@ -1,0 +1,34 @@
+.userItem a {
+  height: 50px;
+  margin-bottom: 1vh;
+}
+
+.userItem .userItem-element {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 70px;
+  border-bottom: 1px solid #dd7238;
+  background-color: #eee;
+  text-decoration: none;
+  color: #333;
+}
+
+.userItem button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+
+.userItem .userItem-element div {
+  flex: 1;
+}
+
+.userItem .userItem-element div:nth-child(2) {
+  flex: 4;
+  flex-shrink: 6;
+}

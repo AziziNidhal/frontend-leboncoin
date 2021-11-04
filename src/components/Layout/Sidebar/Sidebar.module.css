@@ -1,0 +1,46 @@
+.sidebar {
+  flex: 1 1 240px;
+  overflow-y: auto;
+  height: 94vh;
+}
+
+.sidebar .card-body {
+  /* height: 570px; */
+  overflow-y: auto;
+}
+
+.sidebar .card {
+  /* margin-top: -5px; */
+}
+
+.sidebar .card-header p,
+.main .card-header p {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.bg-info {
+  background-color: #dd7238 !important;
+  color: #fff;
+  height: 7vh;
+}
+
+.sidebar .card .card-body {
+  border-right: 1px solid rgba(0, 0, 0, 0.125);
+  height: 90vh;
+  background-color: #eee;
+}
+
+
+/*msg body end*/
+@media all and (max-width: 700px) {
+  .sidebar {
+    flex: 1 1 30px;
+  }
+
+
+
+  .sidebar .card-header p {
+    display: none;
+  }
+}

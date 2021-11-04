@@ -1,0 +1,5 @@
+.main {
+  flex: 3 3 500px;
+  clear: both;
+  min-width: 400px;
+}

@@ -1,0 +1,36 @@
+
+.bg-info {
+  background-color: #dd7238 !important;
+  color: #fff;
+  height: 7vh;
+}
+
+.user-img {
+  width: 48px;
+  height: 48px;
+}
+
+.msg-body {
+  overflow: auto;
+  height: 84vh;
+}
+
+/*msg body start*/
+/* .main {
+  flex: 3 3 500px;
+  clear: both;
+  min-width: 400px;
+}
+
+.main .card {
+  border-left: 0px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0px;
+}
+
+.main .card-body {
+  overflow: auto;
+  position: absolute;
+  bottom: 0;
+} */
+

@@ -1,0 +1,11 @@
+.load {
+  color: rgb(79, 216, 79);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media all and (max-width: 700px) {
+  .userNickname {
+    display: none;
+  }
+}

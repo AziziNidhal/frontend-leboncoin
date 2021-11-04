@@ -1,0 +1,10 @@
+.navbar {
+  height: 6vh;
+  margin-bottom: 5px;
+  background: #f8642d;
+  border: 1px solid #dd7238;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 0 0 5px 5px;
+}
+
